@@ -11,6 +11,7 @@ import Resources from './components/pages/resources';
 import ContactUs from './components/pages/contactUs';
 import OurServices from './components/pages/ourServices';
 import { Route, Switch, Redirect } from 'react-router-dom';
+import FooterPage from './components/pages/footerPage';
 
 
 class App extends Component {
@@ -34,6 +35,7 @@ class App extends Component {
           </Switch>
         </div>
         </main>
+        <FooterPage />
       </React.Fragment>
      );
   }
