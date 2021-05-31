@@ -14,7 +14,7 @@ const FooterPage = () => {
                       <div className="row">
                         <div className="col-md-6">
                             <h4>Menu</h4>
-                            <ul class="list-group list-group-flush">
+                            <ul className="list-group list-group-flush">
                                 <li className="list-group-item bg-transparent"><Link className="text-white" to="#">Home</Link></li>
                                 <li className="list-group-item bg-transparent"><Link className="text-white" to="#">Our Services</Link></li>
                                 <li className="list-group-item bg-transparent"><Link className="text-white" to="#">About Us</Link></li>
@@ -25,7 +25,7 @@ const FooterPage = () => {
                         </div>
                         <div className="col-md-6">
                             <h4>Social Media</h4>
-                            <ul class="list-group list-group-flush">
+                            <ul className="list-group list-group-flush">
                                 <li className="list-group-item bg-transparent"><Link className="text-white" to="#">Facebook</Link></li>
                                 <li className="list-group-item bg-transparent"><Link className="text-white" to="#">Instagram</Link></li>
                                 <li className="list-group-item bg-transparent"><Link className="text-white" to="#">Youtube</Link></li>

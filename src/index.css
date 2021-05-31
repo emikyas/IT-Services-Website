@@ -20,3 +20,9 @@ code {
 .bg-maroon {
   background-color: #8c1515;
 }
+.invalid-feedback.invalid-input {
+  position: absolute;
+  font-size: 10px;
+  margin-top: 0;
+  padding-left: 5px;
+}

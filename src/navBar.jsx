@@ -7,7 +7,7 @@ import {
 
 const NavBar = () => {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar className="px-3 sticky-top" bg="light" expand="lg">
         <Link className="navbar-brand" to="/">Logo</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

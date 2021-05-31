@@ -1,6 +1,6 @@
 import './App.css';
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
 
 import NavBar from './navBar';
@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <NavBar />
-        <main className="container-fluid">
+        <main className="">
         <div className="content">
           <Switch>
 
