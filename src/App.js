@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
 
-import NavBar from './navBar';
 import Blog from './components/pages/blog';
 import Home from './components/pages/home';
 import AboutUs from './components/pages/aboutUs';
@@ -12,6 +11,7 @@ import ContactUs from './components/pages/contactUs';
 import OurServices from './components/pages/ourServices';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import FooterPage from './components/pages/footerPage';
+import NavBar from './components/navBar';
 
 
 class App extends Component {
