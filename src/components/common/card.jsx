@@ -3,7 +3,6 @@ import { Image } from 'react-bootstrap';
 import { timeSince } from './../../utils/timeSince';
 
 const Card = ({ data, section }) => {
-    console.log('card data', data);
     return (
         <React.Fragment>
             {data.map(d => (
