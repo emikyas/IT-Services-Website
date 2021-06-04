@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Joi from 'joi-browser';
 import Input from './input';
 import Select from './select';
+import { Redirect } from 'react-router-dom';
 
 class Form extends Component {
     
@@ -33,13 +34,11 @@ class Form extends Component {
         this.setState({ errors: errors || {} });
         if (errors) return;
 
-        console.log('Do something to submit to the database...');
         this.doSubmit();
     };
     doSubmit = () => {
         // .... save to db 
-        
-        this.props.history.push('/'); //and redirect to home page
+        console.log('Do something to submit to the database...');
     };
     handleChange = ({ currentTarget: input }) => {
         // error validation
