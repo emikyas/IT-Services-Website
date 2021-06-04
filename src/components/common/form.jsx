@@ -33,7 +33,13 @@ class Form extends Component {
         this.setState({ errors: errors || {} });
         if (errors) return;
 
-        console.log('Do something to submit to the database...'); // this.doSubmit();
+        console.log('Do something to submit to the database...');
+        this.doSubmit();
+    };
+    doSubmit = () => {
+        // .... save to db 
+        
+        this.props.history.push('/'); //and redirect to home page
     };
     handleChange = ({ currentTarget: input }) => {
         // error validation

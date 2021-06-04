@@ -31,11 +31,6 @@ class OurServices extends Form {
         const validatePhoneNumber = Joi.extend(require('joi-phone-number'));
         return validatePhoneNumber.string().phoneNumber();
     }
-    doSubmit = () => {
-        // .... save to db 
-        
-        this.props.history.push('/'); //and redirect to home page
-    };
     render() {
         const { errors } = this.state;
 
