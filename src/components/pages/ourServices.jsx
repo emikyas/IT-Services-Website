@@ -3,6 +3,7 @@ import Joi from 'joi-browser';
 import { Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Form from './../common/form';
+import Contact from '../common/contact';
 
 class OurServices extends Form {
     state = {
@@ -13,6 +14,8 @@ class OurServices extends Form {
             siteLink: '',
             comments: ''
         },
+        currentPage: 1,
+        pageSize: 4,
         errors: {}
     }
     schema = {
@@ -132,14 +135,7 @@ class OurServices extends Form {
                                 <div className="col-md-12 text-black m-auto">
                                     <p className="text-center">Our certified inbound and growth-driven specialists among others can work with you to fully optimise the power of an inbound strategy right for your business. Fill up the form below and contact us to discover what we can do today.</p>
                                     <p className="h2 pt-3 text-center">CONTACT AN INBOUND SPECIALIST NEAR YOU</p>
-                                    <form className="row g-3" onSubmit={this.handleSubmit}>
-                                        {this.renderInput('completeName', 'Complete Name')}                                        
-                                        {this.renderInput('email', 'Email')}
-                                        {this.renderInput('company', 'Company')}
-                                        {this.renderInput('siteLink', 'Website')}
-                                        {this.renderInput('comments', 'Comment')}
-                                        {this.renderButton('Save')}
-                                    </form>
+                                    <Contact />
                                 </div>
                             </div>
                         </div>
