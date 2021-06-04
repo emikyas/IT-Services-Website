@@ -11,7 +11,7 @@ class Contact extends Form {
             siteLink: '',
             comments: ''
         },
-        errors: {}
+        errors: { }
     };
     schema = {
         id: Joi.string(),
