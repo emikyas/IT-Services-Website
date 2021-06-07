@@ -7,6 +7,7 @@ This page is made of ReactJS particularly in frontend and has:
 - Validation
 - Dynamic Cards
 - Dynamic Published date
+- Object Oriented
 
 ## Tools
 
@@ -25,6 +26,5 @@ This page is made of ReactJS particularly in frontend and has:
 ### Language
 
 - JavaScript
-- Object Oriented Programming
 - CSS
 - HTML
